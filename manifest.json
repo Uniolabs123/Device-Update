@@ -1,0 +1,23 @@
+{
+  "name": "Unio Labs Device AP",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "wifi_ap_test.ino.bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "wifi_ap_test.ino.partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "wifi_ap_test.ino.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
